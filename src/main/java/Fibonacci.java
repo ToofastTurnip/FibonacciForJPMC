@@ -1,6 +1,12 @@
 public class Fibonacci {
 
     public String start(int limit) {
+
+        // If statements to cover bad inputs (and '1' because the code returns two values for everything)
+        if (limit <= 0) return "It can't run zero times, invalid input!";
+        if (limit == 1) return "0";
+
+        // The rest of the code for
         String ret = "";
         int numOne = 0;
         int numTwo = 1;
