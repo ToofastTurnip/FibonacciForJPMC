@@ -51,4 +51,12 @@ public class FibonacciTest {
         Assert.assertEquals("Incorrect output", expected, actual);
     }
 
+    @Test
+    public void fibonacciTooLargeInputTest() {
+        Fibonacci f = new Fibonacci();
+        String expected = "Input too large!";
+        String actual = f.start(48);
+        Assert.assertEquals("Incorrect output", expected, actual);
+    }
+
 }

@@ -16,21 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="105">
+              <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FibonacciTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FibonacciTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FibonacciTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+            <state relative-caret-position="278">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,8 +63,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/test/java/FibonacciTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Fibonacci.java" />
       </list>
     </option>
   </component>
@@ -129,6 +129,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JPMC_Fibonacci" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JPMC_Fibonacci" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -153,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FibonacciTest.fibonacci4">
+  <component name="RunManager" selected="JUnit.FibonacciTest.fibonacciTooLargeInputTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -183,26 +190,6 @@
       <option name="MAIN_CLASS_NAME" value="FibonacciTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="FibonacciTest.fibonacci1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="JPMC_Fibonacci" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FibonacciTest" />
-      <option name="METHOD_NAME" value="fibonacci1" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -262,6 +249,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FibonacciTest" />
       <option name="METHOD_NAME" value="fibonacci4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="FibonacciTest.fibonacciTooLargeInputTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="JPMC_Fibonacci" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FibonacciTest" />
+      <option name="METHOD_NAME" value="fibonacciTooLargeInputTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -335,19 +342,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciTest.fibonacci1" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciTest.fibonacci2" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciTest.fibonacci3" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FibonacciTest.fibonacci4" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciTest.fibonacci2" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciTest.fibonacci3" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciTest.fibonacci4" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FibonacciTest.fibonacciTooLargeInputTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciTest.fibonacci4" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciTest.fibonacciTooLargeInputTest" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciTest.fibonacci3" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciTest.fibonacci2" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FibonacciTest.fibonacci1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciTest.fibonacci4" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciTest.fibonacci3" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FibonacciTest.fibonacci2" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +371,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525798703787</updated>
-      <workItem from="1525798708450" duration="2365000" />
+      <workItem from="1525798708450" duration="2970000" />
     </task>
     <servers />
   </component>
@@ -372,23 +379,8 @@
     <history-entry file="FibonacciTest - 2018.05.08 at 13h 32m 49s.xml">
       <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciTest_fibonacci2 - 2018.05.08 at 13h 26m 12s.xml">
-      <configuration name="FibonacciTest.fibonacci2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FibonacciTest_fibonacci2 - 2018.05.08 at 13h 27m 14s.xml">
-      <configuration name="FibonacciTest.fibonacci2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FibonacciTest_fibonacci3 - 2018.05.08 at 13h 28m 50s.xml">
-      <configuration name="FibonacciTest.fibonacci3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FibonacciTest_fibonacci3 - 2018.05.08 at 13h 29m 48s.xml">
-      <configuration name="FibonacciTest.fibonacci3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FibonacciTest_fibonacci3 - 2018.05.08 at 13h 29m 55s.xml">
-      <configuration name="FibonacciTest.fibonacci3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FibonacciTest_fibonacci3 - 2018.05.08 at 13h 30m 04s.xml">
-      <configuration name="FibonacciTest.fibonacci3" configurationId="JUnit" />
+    <history-entry file="FibonacciTest - 2018.05.08 at 13h 42m 46s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FibonacciTest_fibonacci3 - 2018.05.08 at 13h 30m 17s.xml">
       <configuration name="FibonacciTest.fibonacci3" configurationId="JUnit" />
@@ -399,9 +391,24 @@
     <history-entry file="FibonacciTest_fibonacci3 - 2018.05.08 at 13h 30m 53s.xml">
       <configuration name="FibonacciTest.fibonacci3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FibonacciTest_fibonacci4 - 2018.05.08 at 13h 39m 07s.xml">
+      <configuration name="FibonacciTest.fibonacci4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest_fibonacciTooLargeInputTest - 2018.05.08 at 13h 46m 33s.xml">
+      <configuration name="FibonacciTest.fibonacciTooLargeInputTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest_fibonacciTooLargeInputTest - 2018.05.08 at 13h 47m 01s.xml">
+      <configuration name="FibonacciTest.fibonacciTooLargeInputTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest_fibonacciTooLargeInputTest - 2018.05.08 at 13h 47m 30s.xml">
+      <configuration name="FibonacciTest.fibonacciTooLargeInputTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest_fibonacciTooLargeInputTest - 2018.05.08 at 13h 47m 38s.xml">
+      <configuration name="FibonacciTest.fibonacciTooLargeInputTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2365000" />
+    <option name="totallyTimeSpent" value="2970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1214" height="708" extended-state="0" />
@@ -455,21 +462,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FibonacciTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        <state relative-caret-position="278">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>

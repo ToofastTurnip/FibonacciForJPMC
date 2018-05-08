@@ -5,6 +5,7 @@ public class Fibonacci {
         // If statements to cover bad inputs (and '1' because the code returns two values for everything)
         if (limit <= 0) return "It can't run zero times, invalid input!";
         if (limit == 1) return "0";
+        if (limit > 47) return "Input too large!";
 
         // The rest of the code for
         String ret = "";
