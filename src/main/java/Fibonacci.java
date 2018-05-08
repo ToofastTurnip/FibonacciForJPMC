@@ -7,7 +7,7 @@ public class Fibonacci {
         if (limit == 1) return "0";
         if (limit > 47) return "Input too large!";
 
-        // The rest of the code for
+        // The rest of the code for valid inputs
         String ret = "";
         int numOne = 0;
         int numTwo = 1;
